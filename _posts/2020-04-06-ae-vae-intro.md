@@ -163,7 +163,7 @@ There is some work indicating that increasing $\beta$ can help learning more "di
 
 In the real world VAEs usually lag behind other generative models in terms of generated data quality. Indeed, GANs and/or Normalizing Flows (e.g. [OpenAI Glow](https://openai.com/blog/glow/))  show superior performance when it comes to realistic, high-resolution image generation. Note that, this applies not only to image but other data domains as well.
 
-There is a wide-spread opinion that using Gaussian for latent vectors isn't powerful enough to deal with highly complex datasets found in the real world, mainly, due to its unimodal nature (e.g. check out conclusion section [here](https://github.com/dojoteef/dvae). Some research suggests this problem can be mitigated by using more complex distributions, like [Mixture of Gaussians](https://openreview.net/forum?id=BJJLHbb0-) or, going even further, by employing [adversarial training](https://arxiv.org/pdf/1511.05644.pdf). 
+There is a wide-spread opinion that using Gaussian for latent vectors isn't powerful enough to deal with highly complex datasets found in the real world, mainly, due to its unimodal nature (e.g. check out conclusion section [here](https://github.com/dojoteef/dvae)). Some research suggests this problem can be mitigated by using more complex distributions, like [Mixture of Gaussians](https://openreview.net/forum?id=BJJLHbb0-) or, going even further, by employing [adversarial training](https://arxiv.org/pdf/1511.05644.pdf). 
 
 # References
 
